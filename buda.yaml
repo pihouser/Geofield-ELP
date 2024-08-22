@@ -1,0 +1,17 @@
+Author: Perry Houser
+Title: Inferred Buda Members and what unit to expect above buda
+ObjectPropertyAssertion:
+  - ObjectProperty: http://www.geo.org/#expectAbove
+    NamedIndividual: http://www.geo.org/#Buda
+    NamedIndividual: http://www.geo.org/#Mancos
+ObjectPropertyAssertion:
+  - ObjectProperty: http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#hasMember
+    NamedIndividual: http://www.geo.org/#Buda
+    NamedIndividual: http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#Buda_1
+ObjectPropertyAssertion:
+  - ObjectProperty: http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#hasMember
+    NamedIndividual: http://www.geo.org/#Buda"/>
+    NamedIndividual: http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#Buda_2
+  - ObjectProperty IRI: http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#hasMember
+    NamedIndividual: http://www.geo.org/#Buda
+    NamedIndividual IRI: http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#Buda_3

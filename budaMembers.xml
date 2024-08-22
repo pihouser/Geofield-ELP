@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xml version="1.0" feed xmlns="http://www.w3.org/2002/07/owl#" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+<channel><Title>Inferred Buda Members and what unit to expect above buda</Title>
+<Author>Perry Houser</Author>
+<ObjectPropertyAssertion>
+    <NamedIndividual>http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#Buda_2</NamedIndividual>
+    <NamedIndividual>http://www.semanticweb.org/pihouser/ontologies/2024/8/MCR2024#Buda_2</NamedIndividual>
+</ObjectPropertyAssertion><ObjectPropertyAssertion>
+<NamedIndividual>http://www.geo.org/#Buda</NamedIndividual>
+<NamedIndividual>http://www.geo.org/#Buda</NamedIndividual>
+</ObjectPropertyAssertion>
+</channel>
+</xml>
