@@ -1,5 +1,5 @@
 Author: Perry Houser
-Title: Inferred Buda Members and what unit to expect above buda
+Title: Inferred Buda Members and what to expect above buda
 ObjectPropertyAssertion:
   - ObjectProperty: http://www.geo.org/#expectAbove
     NamedIndividual: http://www.geo.org/#Buda
