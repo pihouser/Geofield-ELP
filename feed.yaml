@@ -1,3 +1,25 @@
-title: USGS Significant Earthquakes, Past Hour
+title: Generate Buda Formation Information
 updated: 2024-08-21T02:42:16Z
-author: U.S. Geological Survey
+author: Perry Houser
+on: [push]
+jobs:
+  build:
+    - name: Checkout Repo
+      users: actions/checkout@v3
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    -name: Install
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+    - name: Run Feed Generator
+      run: python feed2.py
+    - name: Push Repo
+      run: |
+        git config user.name github-actions 
+        git config user.email pihouser5@gmail.com
+        git add .
+        git commit -m "Modifed Feed"
+        git push 
