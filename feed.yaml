@@ -1,6 +1,6 @@
 title: Generate Buda Formation Information
 updated: 2024-08-21T02:42:16Z
-author: Perry Houser
+author: Perry Ivan Houser
 on: [push]
 jobs:
   build:
