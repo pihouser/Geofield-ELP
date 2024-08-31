@@ -18,7 +18,7 @@ uses: actions/checkout@v3
    run: python feed2.py
   -name: Push Repo 
    run: |
-    git config user.name github-actions
+    git config user.name pihouser
     git config user.email pihouser5@gmail.com
     git add .
     git commit -m "Modified Feed Perry"
